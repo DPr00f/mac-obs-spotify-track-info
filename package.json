@@ -1,0 +1,15 @@
+{
+  "name": "spotify-track-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "spotify-node-applescript": "^1.1.0"
+  }
+}
