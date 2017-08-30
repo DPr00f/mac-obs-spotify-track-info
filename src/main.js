@@ -14,7 +14,7 @@ function getTrack() {
             previousTrack = track.id;
             let music = fs.readFileSync(path.resolve(__dirname, '../template.txt'), 'utf8').trim();
             Object.keys(track).forEach(key => {
-                const regex = new RegExp('%' + key + '%', 'g');
+                const regex = new RegExp('{{' + key + '}}', 'g');
                 music = music.replace(regex, track[key]);
             });
             console.log(music);

@@ -5,11 +5,13 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node .",
+    "server": "node src/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.4",
     "spotify-node-applescript": "^1.1.0"
   }
 }
